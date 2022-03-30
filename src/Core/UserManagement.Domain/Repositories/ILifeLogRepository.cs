@@ -2,7 +2,7 @@
 
 namespace UserManagement.Domain.Repositories
 {
-    public interface IAddressRepository : IGenericRepository<Address>
+    public interface ILifeLogRepository : IGenericRepository<LifeLog>
     {
         
     }

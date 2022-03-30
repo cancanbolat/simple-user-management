@@ -1,16 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\src\Infrastructure\UserManagement.Data\UserManagement.Data.csproj" />
-  </ItemGroup>
+  
 
   <ItemGroup>
     <Folder Include="Logging\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\UserManagement.Data\UserManagement.Data.csproj" />
   </ItemGroup>
 
 </Project>
